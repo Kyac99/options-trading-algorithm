@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/
+results/
+logs/
+config_local.py
+*.log
+
+# API keys and secrets
+.env.local
+*.pem
+*.key
+
+# Generated files
+*.csv
+*.xlsx
+*.pickle
+*.h5
